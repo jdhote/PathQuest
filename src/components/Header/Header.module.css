@@ -1,0 +1,15 @@
+.header-name
+{
+    color: #0fb;
+    font-weight: 700;
+    font-size: 3rem !important;
+}
+
+.my-header
+{
+    background-color: #010101 !important;
+    align-items: center;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    border-bottom: none !important;
+}

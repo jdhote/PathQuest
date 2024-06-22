@@ -1,0 +1,98 @@
+/* .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-item {
+    width: 20px; 
+    height: 20px;
+    border: 1px solid black; 
+  }
+  
+  .node-start {
+    background-color: green;
+  }
+  
+  .node-finish {
+    background-color: red;
+  }
+  
+  .node {
+    width: 100%; 
+    height: 100%;
+  }
+   */
+
+
+   /* Reset all margins and paddings to zero */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+   /* Node.css */
+
+
+
+
+.node {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid black;
+  }
+  
+  .node-visited {
+    background-color: lightblue;
+  }
+  
+  .node-shortest-path {
+    background-color: yellow;
+  }
+  
+  .node-start {
+    background-color: green;
+  }
+  
+  .node-finish {
+    background-color: red;
+  }
+  
+  .node-wall {
+    background-color: black;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 70px; */
+    
+    
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+
+
+  .visualize-btn
+  {
+    margin-top: 20px;
+    background-color:#0fb ;
+    color: black;
+    font-weight: 500;
+  }
+  
+
+  .visualize-btn:hover{
+    background-color: rgb(70, 114, 102) !important;
+    color: white;
+  }

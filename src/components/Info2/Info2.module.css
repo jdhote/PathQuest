@@ -1,0 +1,159 @@
+
+  /* .info2-container {
+    display: flex;  
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 0;
+    height: 142px;
+  }
+  
+ 
+  .color-indicator {
+ height: 20px;
+ width: 20px;
+ margin: 3px;
+
+  }
+  
+  
+  .start-node {
+    background-color: green;
+    border: 1px solid black;
+  }
+  
+  .end-node {
+    background-color:red ;
+    border: 1px solid black;
+  }
+  
+  .shortest-path {
+    background-color:yellow ;
+    border: 1px solid black;
+  }
+  
+  .wall {
+    background-color: black ;
+    border: 1px solid black;
+  }
+  
+  .visited-node {
+    background-color: aqua;
+    border: 1px solid black; 
+  }
+  
+  .un-visited-node {
+    background-color: white ;
+    border: 1px solid black;
+  }
+  
+
+  .node-position
+  {
+    display: flex;
+  } 
+
+  .node
+  {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+  }
+
+  .algo-name {
+   
+    flex: 1;
+   
+
+  }
+  
+
+  .algo-name-wrapper {
+    flex: 1;
+    height: 100%;
+  }
+  
+.wrapper{
+  margin-top: 78px;
+  padding: 0;
+
+} */
+
+/* Container styling */
+.info2-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0; /* Margin will be respected now */
+  padding: 0;
+  height: 142px;
+}
+
+/* Indicator base styling */
+.color-indicator {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+}
+
+/* Specific styles for different nodes */
+.start-node {
+  background-color: green;
+  border: 1px solid black;
+}
+
+.end-node {
+  background-color: red;
+  border: 1px solid black;
+}
+
+.shortest-path {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.wall {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.visited-node {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.un-visited-node {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.node-position {
+  display: flex;
+}
+
+.node {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+.algo-name {
+  display: flex;
+  flex: 1; /* Keep this for proper sizing */
+  align-items: center;
+}
+
+.algo-name-wrapper {
+  flex: 1;
+  height: 100%;
+  padding-top: 45px;
+  padding-left: 45px;
+}
+
+.wrapper {
+ 
+  padding: 0;
+
+}
+
+h1{
+  margin-right: 30px;
+}
